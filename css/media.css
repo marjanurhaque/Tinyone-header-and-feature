@@ -1,0 +1,63 @@
+/*Extra small devices (Portrait phones, Less than 576)*/
+@media (max-width: 575.98px){
+	
+	.nav-item-custom, .s_icon, .s_content h4,p{
+		text-align: center;
+	}
+	.s_content h1{
+		font-size: 27px;
+	    text-align: center;
+	}
+	.f_body h4{
+		text-align: center;
+	}
+
+	/*newsletter section*/
+	.btn-custom{
+		margin-top: 25px;
+	}
+	/*newsletter section*/
+
+	/*footer section*/
+	.f1{
+		margin-bottom: 25px;
+	}
+	/*footer section end*/
+}
+
+
+/*small devices (Landscape phones, 576 and Up)*/
+@media (min-width: 576px) and (max-width: 767.98px){
+
+	.f_body h4, p{
+		text-align: center;
+	}
+
+	/*newsletter section*/
+	.btn-custom{
+		margin-top: 25px;
+	}
+	/*newsletter section end*/
+
+	/*footer section*/
+	.f1{
+		margin-bottom: 25px;
+	}
+	/*footer section end*/
+}
+
+
+/*Medium devices (Tablets, 768 and Up)*/
+@media (min-width: 768px) and (max-width: 991.98px){
+
+}
+
+/*Large devices (desktops, 992 and Up)*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+}
+
+/*Extra large devices (large desktops, 1200 and Up)*/
+@media (min-width: 1200px){
+
+}
